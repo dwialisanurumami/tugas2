@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Wisuda</title>
+        <!--Load bootstrap.css file-->
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <style>
+            body {
+             background-color: #F2BCC4;
+           }
+         </style>
+    </head>
+    <body>
+        <h1 style="text-align:center">Wisuda Bootcamp</h1>
+        <h1 style="text-align:center">Program Keahlian Pemrograman</h1>
+        <h3 style="text-align:center">Jln.Sumpah Pemuda No.55 Selatan</h3>
+        <hr class="my-4">
+        <h3 style="text-align:center">Yang bertandatangan dibawah ini:</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                     <form action="/post" method="post">
+                        <div class="form-row">
+                            <div class="col">
+                                Nama/Gelar :<input type="text" name="textname" class="form-control" placeholder="name">
+                            </div>
+                             <div class="col">
+                                NIM :<input type="text" name="textnim" class="form-control" placeholder="nim">
+                            </div>
+                             <div class="col">
+                                Program Studi :<input type="text" name="textpro" class="form-control" placeholder="program studi">
+                            </div>
+                             <div class="col">
+                                Tempat Tanggal Lahir :<input type="date" name="ttl" class="form-control" placeholder="Tempat Tanggal Lahir">
+                            </div>
+                             <div class="col">
+                                Minat :<input type="text" name="minat" class="form-control" placeholder="minat">
+                            </div>
+                             <div class="col">
+                                Alamat :<input type="text" name="alamat" class="form-control" placeholder="alamat">
+                            </div>
+                             <div class="col">
+                                Tanggal Lulus :<input type="varchar" name="tl" class="form-control" placeholder="Tanggal lulus">
+                            </div>
+                             <div class="col">
+                                Indeks Prestasi Komulatif(IPK) :<input type="text" name="ipk" class="form-control" placeholder="indeks prestasi komulatif">
+                            </div>
+                             <div class="col">
+                                Predikat : <br>
+                                           <input type="radio" name="pr" value="memuaskan">Memuaskan<br>
+                                           <input type="radio" name="pr" value="sangat memuaskan">Sangat Memuaskan<br>
+                                           <input type="radio" name="pr" value="tidak memuaskan">Tidak Memuaskan<br>
+                            </div>
+                             <div class="col">
+                                Judul Karya Seni :<input type="text" name="jks" class="form-control" placeholder="Judul Karya Seni">
+                            </div>
+                             <div class="col">
+                                Alamat Email :<input type="text" name="almte" class="form-control" placeholder="name">
+                            </div>
+                            <div class="col">
+                                Nilai Tugas Akhir :<input type="varchar" name="nka" class="form-control" placeholder="nilai tugas akhir">
+                                </div>
+                            <div class="col">
+                                Pembimbing Karya Seni/Tesis :<input type="text" name="pks" class="form-control" placeholder="pembimbing karya seni">
+                                </div>
+                            <div class="col">
+                                Lama Studi :<input type="text" name="ls" class="form-control" placeholder="lama studi">
+                                </div>
+                                Wisuda Pada Bulan : <br>
+                                           <input type="radio" name="wpd" value="januari">Januari<br>
+                                           <input type="radio" name="wpd" value="febuari">Febuari<br>
+                                           <input type="radio" name="wpd" value="maret">Maret<br>
+                                           <input type="radio" name="wpd" value="april">April<br>
+                                           <input type="radio" name="wpd" value="mei">Mei<br>
+                                           <input type="radio" name="wpd" value="juni">Juni<br>
+                                           <input type="radio" name="wpd" value="juli">Juli<br>
+                                           <input type="radio" name="wpd" value="agustus">Agustus<br>
+                                           <input type="radio" name="wpd" value="september">September<br>
+                                           <input type="radio" name="wpd" value="oktober">Oktober<br>
+                                           <input type="radio" name="wpd" value="november">November<br>
+                                           <input type="radio" name="wpd" value="desember">Desember       
+                             <div class="col">
+                                <button type="submit" class="btn btn-success">Submit</button>
+                            </div>
+                            </div>
+                        </div>
+                     </form>
+                </div>
+            </div>
+        </div>
+
+        <!--Load bootstrap.js file-->
+        <scrpt src="js/bootstrap.js"></scrpt>
+    </body>
+</html>

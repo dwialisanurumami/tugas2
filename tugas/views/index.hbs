@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Helllo {{ name }}</title>
+        <!--Load bootstrap.css file-->
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <style>
+            body {
+             background-color: #FFE57E;
+           }
+         </style>
+    </head>
+        <body>
+                <h1 style="text-align:center">Wisuda Bootcamp</h1>
+                  <h1 style="text-align:center">Program Keahlian Pemrograman</h1>
+                   <h3 style="text-align:center">Jln.Sumpah Pemuda No.55 Selatan</h3>
+                   <hr class="my-4">   
+                    <h3 style="text-align:center">Yang bertandatangan dibawah ini:</h3>
+            <div class="container">
+             <div class="row">
+              <div class="col-md-12">
+                <div class="jumbotron">
+                  <h1 class="lead">Nama: {{ name }}</h1>
+                  <h1 class="lead">NIM: {{ textnim }}</h1>
+                   <h1 class="lead">Program Studi<td>:</td> {{ textpro }}</h1>
+                   <h1 class="lead">Tempat Tanggal Lahir: {{ ttl }}</h1>
+                   <h1 class="lead">Minat: {{ minat }}</h1>
+                   <h1 class="lead">Alamat: {{ alamat }}</h1>
+                   <h1 class="lead">Tanggal Lulus: {{ tl }}</h1>
+                   <h1 class="lead">Indeks Prestasi Komulatif(IPK): {{ ipk }}</h1>
+                   <h1 class="lead">Predikat: {{ pr }}</h1>
+                   <h1 class="lead">Judul Karya Seni: {{ jks }}</h1>
+                   <h1 class="lead">Alamat Email: {{ almte }}</h1>
+                   <h1 class="lead">Nilai Tugas Akhr: {{ nka }}</h1>
+                   <h1 class="lead">Pembimbing Karya Seni/Tesis: {{ pks }}</h1>
+                   <h1 class="lead">Lama Studi: {{ ls }}</h1>
+                   <h1 class="lead">Wisuda Pada Bulan: {{ wpd }}</h1>
+                    <p class="lead">Saya sekolah di Smk Bina Nusantara Semarang!</p>
+                      <hr class="my-4">
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                </div>  
+              </div>
+             </div> 
+            </div>
+            </div>
+            </body>
+
+            <!--Load bootstrap.js file-->
+            <script src="js/bootstrap.js"></script>
+        </body>
+</html>
